@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  #title {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+  }
+  
+  
+  
+  #result {
+    font-size: 24px;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  #dice-player-1,
+  #dice-player-2 {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  #user-1,
+  #user-2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button#play {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#play:hover {
+    background-color: #45a049;
+  }
+  
